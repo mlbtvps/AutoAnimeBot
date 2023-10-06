@@ -1,5 +1,5 @@
-flask==2.0.1
-gunicorn==21.0.0
+flask
+gunicorn
 pip
 setuptools 
 wheel

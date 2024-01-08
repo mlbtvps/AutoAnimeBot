@@ -42,7 +42,7 @@ async def tg_handler(appp, TECHZ_API_KEY):
     app = appp
     queue = app.queue
     Gogo = TechZApi.Gogo(TECHZ_API_KEY)
-    Gogo.base = "https://animetopia-api-0cdbd873a81a.herokuapp.com"
+    Gogo.base = "https://api.anime-dex.workers.dev"
 
     while True:
         if len(queue) != 0:
